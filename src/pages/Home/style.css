@@ -1,0 +1,32 @@
+.title{
+    display: flex;
+    justify-content: center;
+    margin: 3.2rem;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    margin-bottom: 3.2rem;;
+}
+
+.search input{
+    width: 80%;
+    padding: 1rem 2rem;
+    border-radius: 0.4rem 0 0 0.4rem;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.search input:focus{
+    border: 1px solid #1caB19;
+}
+
+.search button{
+    width: 20%;
+    background-color: #1caB19;
+    color: #fff;
+    border: none;
+    border-radius: 0 0.4rem 0.4rem 0;
+    cursor: pointer;
+}
